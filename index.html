@@ -3,47 +3,100 @@
 <head>
   <title>Data Science / Chemoinformatics Portfolio</title>
   <style>
-    /* Add your custom CSS styles here */
+    /* General Styles */
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Navigation Styles */
+    .navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+    }
+
+    /* Main Content Styles */
+    .container {
+      margin-top: 60px; /* To make space for the fixed navbar */
+      padding: 20px;
+    }
+
+    h1, h2, h3 {
+      margin-top: 0;
+    }
+
+    /* Skill Buttons */
+    .skill-button {
+      display: inline-block;
+      margin: 5px;
+      padding: 10px;
+      background-color: #ddd;
+      color: #333;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: transform 0.3s;
+    }
+
+    .skill-button:hover {
+      transform: scale(1.1);
+    }
+
+    /* Project Buttons */
+    .project-button {
+      display: inline-block;
+      margin: 5px;
+      padding: 10px;
+      background-color: #007bff;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: transform 0.3s;
+    }
+
+    .project-button:hover {
+      transform: scale(1.1);
+    }
   </style>
 </head>
 <body>
-  <h1>Data Science / Chemoinformatics Portfolio</h1>
+  <div class="navbar">
+    <a href="#about">About Me</a>
+    <a href="#skills">Skills/Tools</a>
+    <a href="#projects">Projects</a>
+    <a href="#reachme">Reach Me</a>
+  </div>
 
-  <h2>About Me</h2>
-  <p>
-    Hello, my name is [Your Name]. I am a data scientist with a focus on chemoinformatics.
-    I have a strong background in [relevant educational background]. I am proficient in [programming languages]
-    and have experience working with [tools/software].
-  </p>
+  <div class="container">
+    <h1>Data Science / Chemoinformatics Portfolio</h1>
 
-  <h2>Projects</h2>
+    <h2 id="about">About Me</h2>
+    <p>
+      Hello, my name is [Your Name]. I am a data scientist with a focus on chemoinformatics.
+      I have a strong background in [relevant educational background]. I am proficient in [programming languages]
+      and have experience working with [tools/software].
+    </p>
 
-  <!-- Example Project 1 -->
-  <h3>Project 1: [Project Title]</h3>
-  <p>
-    Description: [Brief description of the project, including the problem statement and approach taken]
-  </p>
-  <ul>
-    <li>Technologies Used: [List of tools, languages, and libraries used]</li>
-    <li>Code Repository: <a href="[Link to your project's code repository]">GitHub</a></li>
-  </ul>
+    <h2 id="skills">Skills/Tools</h2>
+    <a class="skill-button" href="[URL for Skill 1]">Skill 1</a>
+    <a class="skill-button" href="[URL for Skill 2]">Skill 2</a>
+    <a class="skill-button" href="[URL for Skill 3]">Skill 3</a>
+    <!-- Add more skill buttons as needed -->
 
-  <!-- Example Project 2 -->
-  <h3>Project 2: [Project Title]</h3>
-  <p>
-    Description: [Brief description of the project, including the problem statement and approach taken]
-  </p>
-  <ul>
-    <li>Technologies Used: [List of tools, languages, and libraries used]</li>
-    <li>Code Repository: <a href="[Link to your project's code repository]">GitHub</a></li>
-  </ul>
+    <h2 id="projects">Projects</h2>
+    <a class="project-button" href="[URL for Project 1]">Project 1</a>
+    <a class="project-button" href="[URL for Project 2]">Project 2</a>
+    <a class="project-button" href="[URL for Project 3]">Project 3</a>
+    <!-- Add more project buttons as needed -->
 
-  <!-- Add more project sections as needed -->
-
-  <h2>Contact Me</h2>
-  <ul>
-    <li>Email: [Your Email Address]</li>
-    <li>LinkedIn: <a href="[Link to your LinkedIn profile]">LinkedIn Profile</a></li>
+    <h2 id="reachme">Reach Me</h2>
+    <ul>
+      <li>Email: [Your Email Address]</li>
+      <li>LinkedIn: <a href="[Link to your LinkedIn profile]">LinkedIn Profile</a></li>
     <!-- Add any other contact information you want to include -->
   </ul>
 </body>
